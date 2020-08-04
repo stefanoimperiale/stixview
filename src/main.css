@@ -20,7 +20,7 @@
     border-style: solid;
     border-color: #ddd;
 
-    background-color: #f7f7f7;
+    background-color: #f7f7f7; 
     line-height: 1.2em;
 }
 
@@ -38,7 +38,7 @@
     border-width: 1px 1px 0px 1px;
     border-style: solid;
     border-color: #ddd;
-    background-color: #f7f7f7;
+    background-color: #f7f7f7; 
     color: #586069;
     line-height: 1.2em;
 }
@@ -62,10 +62,10 @@
 }
 
 .loading {
-    background-color: #f7f7f7;
+    background-color: #f7f7f7; 
 }
 
-.stix-sidebar {
+.sidebar {
     top: 0px;
     bottom: 0;
     right: 0;
@@ -82,26 +82,26 @@
     line-height: 1.4em;
 }
 
-.stix-sidebar .sidebar-title {
+.sidebar .sidebar-title {
     word-wrap: break-word;
 }
 
-.stix-sidebar .sidebar-close-icon {
+.sidebar .sidebar-close-icon {
     float: right;
     font-size: 20pt;
     padding: 0px 10px;
     cursor: pointer;
 }
 
-.stix-sidebar img.sidebar-type-icon {
+.sidebar img.sidebar-type-icon {
     height: 30px;
     vertical-align: middle;
     margin-right: 5px;
 }
 
-.stix-sidebar .sidebar-textarea {
+.sidebar .sidebar-textarea {
     height: 400px;
-    max-height: 300px;
+    max-height: 300px;  
     width: 100%;
 }
 
