@@ -755,8 +755,8 @@ function initGraph(element, options, dataFetchCallback) {
     cy.showMarkings = showMarkings;
 
     if (showSidebar) {
-        $viewer.append('<div class="sidebar"></div>');
-        cy.sidebar = $viewer.find('.sidebar');
+        $viewer.append('<div class="stix-sidebar"></div>');
+        cy.sidebar = $viewer.find('.stix-sidebar');
     }
 
     if (onClickNode) {
