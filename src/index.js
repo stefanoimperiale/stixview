@@ -165,4 +165,4 @@ if (typeof window !== 'undefined') {
     window.stixview = {registry, onInit, onLoad, init};
 };
 
-export {registry, onInit, onLoad, init};
+export default {registry, onInit, onLoad, init};
